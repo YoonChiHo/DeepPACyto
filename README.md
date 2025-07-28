@@ -1,6 +1,6 @@
 # DeepPACyto
 
-**DeepPACyto** is a deep learning-based inference framework for label-free cytopathology using photoacoustic (PA) and Pap-stained (PAP) images.  
+**DeepPACyto** is a deep learning-based framework for label-free cytopathology using photoacoustic (PA) and Pap-stained (PAP) images.  
 The pipeline performs **automatic preprocessing**, **virtual staining**, **super-resolution**, and **cluster-level analysis**, and stores all results in a dedicated results folder.
 
 ---
