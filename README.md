@@ -14,7 +14,7 @@ The pipeline performs **automatic preprocessing**, **virtual staining**, **super
 
 ## Directory Structure
 
-Place your input data as follows:
+Place your input data (WSI) as follows:
 ```
 dataset/
 ├── original_data/
