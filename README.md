@@ -54,7 +54,8 @@ All outputs (virtual stained images, SR images, and analysis results) are saved 
 
 ```bash
 python main.py --target_img pa --target_mode hrwcell --name {target_name}
-Parameters
+```
+### Parameters
 --target_img:
 
 pa: Run virtual staining + super-resolution + analysis starting from PA images.
