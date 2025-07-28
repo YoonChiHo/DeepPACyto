@@ -15,7 +15,7 @@ The pipeline performs **automatic preprocessing**, **virtual staining**, **super
 ## 📁 Directory Structure
 
 Place your input data as follows:
-``
+```
 dataset/
 ├── original_data/
 │ └── {opt.name}/ # Raw input images (required)
@@ -23,4 +23,4 @@ dataset/
 │ └── {opt.name}/ # Auto-generated cropped patches after preprocessing
 results/
 └── {opt.name}/ # Output results (virtual staining, SR, clustering)
-``
+```
