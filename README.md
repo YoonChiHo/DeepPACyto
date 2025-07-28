@@ -53,26 +53,18 @@ All outputs (virtual stained images, SR images, and analysis results) are saved 
 ## Running the Code
 
 ```bash
-python main.py --target_img pa --target_mode hrwcell --name {target_name}
+python main.py --target_img {target_img} --target_mode {target_mode} --name {target_name}
 ```
 ### Parameters
 --target_img:
-
 pa: Run virtual staining + super-resolution + analysis starting from PA images.
-
 pap: Run analysis directly on PAP images (without virtual staining).
 
---target_mode:
-Controls resolution and analysis mode:
-
+--target_mode: Controls resolution and analysis mode:
 lr: Low-resolution input and analysis.
-
 lrwcell: Low-resolution with cell-level analysis.
-
 hr: High-resolution reconstruction and analysis.
-
 hrwcell: High-resolution with enhanced cell-level cluster analysis.
 
---name:
-The name (ID) of the input sample directory (must match the folder under dataset/original_data/).
+--name: The name (ID) of the input sample directory (must match the folder under dataset/original_data/).
 
