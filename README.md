@@ -5,14 +5,14 @@ The pipeline performs **automatic preprocessing**, **virtual staining**, **super
 
 ---
 
-## 🔧 Environment Requirements
+## Environment Requirements
 
 - Execute the project inside a Docker container based on:
 `pytorch/pytorch:2.4.0-cuda12.1-cudnn9-devel`
 
 ---
 
-## 📁 Directory Structure
+## Directory Structure
 
 Place your input data as follows:
 ```
@@ -31,7 +31,7 @@ The pretrained models must be placed inside:
 
 ---
 
-## ⚙️ Inference Workflow
+## Workflow
 
 1. **Automatic Preprocessing**  
    The input image is automatically divided into smaller patches for efficient processing.  
@@ -50,10 +50,10 @@ All outputs (virtual stained images, SR images, and analysis results) are saved 
 
 ---
 
-## 🚀 Running the Inference
+## Running the Code
 
 ```bash
-python main.py --target_img pa --target_mode hrwcell --name 22680
+python main.py --target_img pa --target_mode hrwcell --name {target_name}
 Parameters
 --target_img:
 
